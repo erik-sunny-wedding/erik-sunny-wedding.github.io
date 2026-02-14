@@ -1,267 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8" />
-        <link href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.19.2/css/mdb.min.css" rel="stylesheet"/>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.19.2/js/mdb.min.js"></script>
-        <link href="../css/styles.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Song+Myung&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
-        <script src="../js/scripts.js"></script>
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
 
-    <body>
-        <section class="content-section" id="about">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-10">
-                        <h2 style="font-family: 'Song Myung', serif;"><br>웨딩 스냅 - London & Seoul</h2>
-                    </div>
+    <!-- MDBootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.19.2/css/mdb.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.19.2/js/mdb.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Song+Myung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="../js/scripts.js"></script>
+
+    <style>
+        .swiper-slide img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .swiper {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Title Section -->
+    <section class="content-section" id="about">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-10">
+                    <h2 style="font-family: 'Song Myung', serif;"><br>웨딩 스냅 - London & Seoul</h2>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- here -->
-        <div class="container">
-        <div class="row d-flex flex-wrap align-items-center" data-target="#lightbox">
-            <div class="col-12 col-md-6 col-lg-3">
-                <img src="../assets/img/wedding/1.jpeg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/wedding/2.jpeg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/wedding/3.jpeg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/wedding/4.jpeg" data-target="#indicators" alt="" /> 
-            </div>
-            <!-- <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/5.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/6.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/7.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/8.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/9.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/10.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/11.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <img src="../assets/img/ive/12.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/13.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/14.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/15.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/16.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/17.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/18.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/19.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/20.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <img src="../assets/img/ive/21.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/22.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/23.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/24.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/25.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/26.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/27.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/28.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/29.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/30.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/31.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/32.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/33.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/34.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <img src="../assets/img/ive/35.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/36.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/37.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/38.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/39.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/40.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/41.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/42.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <img src="../assets/img/ive/43.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/44.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/45.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/46.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/47.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/48.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/49.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/50.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/51.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/52.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/53.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/54.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/55.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/56.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/57.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/58.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/59.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/60.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/61.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/62.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/63.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/64.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/65.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/66.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/67.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/68.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/69.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/70.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/71.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/72.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/73.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/74.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/75.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/76.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/77.jpg" data-target="#indicators" alt="" /> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="../assets/img/ive/78.jpg" data-target="#indicators" alt="" /> 
-            </div> -->
+    <div class="container">
+
+        <!-- Wedding Snap Slider -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../assets/img/wedding/1.jpeg"></div>
+                <div class="swiper-slide"><img src="../assets/img/wedding/2.jpeg"></div>
+                <div class="swiper-slide"><img src="../assets/img/wedding/3.jpeg"></div>
+                <div class="swiper-slide"><img src="../assets/img/wedding/4.jpeg"></div>
+            </div>
+
+            <!-- Pagination + Navigation -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
-        </div>
-    </body>
+
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 }
+            }
+        });
+    </script>
+
+</body>
 </html>
